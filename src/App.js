@@ -184,6 +184,10 @@ function App() {
           <button type="button" className="App-next" onClick={handleDateNext}>
             Next
           </button>
+          <p className="App-note" role="note">
+            <span className="App-note-label">Note:</span> Bluetooth lav for
+            better experience
+          </p>
         </div>
       );
     }
@@ -277,10 +281,6 @@ function App() {
 
       <main className="App-main">
         <div className="App-main-inner">{renderMainPanel()}</div>
-        <p className="App-note" role="note">
-          <span className="App-note-label">Note:</span> Bluetooth lav for better
-          experience
-        </p>
       </main>
 
       <dialog
